@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Order_Main"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:id="@+id/LL1"
+        android:background="@drawable/vienden_nenxam"
+        android:padding="15dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:textColor="@color/black"
+            android:layout_gravity="center"
+            android:layout_weight="1"
+            android:textSize="20dp"
+            android:text="@string/tv_title1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+
+        <ImageView
+            android:id="@+id/btn_Cart"
+            android:src="@drawable/ic_order"
+            android:layout_width="50dp"
+            android:layout_height="50dp"/>
+    </LinearLayout>
+
+    <TextView
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        android:textColor="@color/black"
+        android:id="@+id/tv_numberOfFood"
+        android:paddingVertical="3dp"
+        android:paddingHorizontal="8dp"
+        android:layout_marginTop="30dp"
+        android:layout_marginRight="15dp"
+        android:text="0"
+        android:background="@drawable/border_number"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+
+    <TextView
+        android:textColor="@color/black"
+        android:id="@+id/tv"
+        android:layout_margin="10dp"
+        android:textSize="20dp"
+        android:text="Welcome KhoaHA"
+        app:layout_constraintTop_toBottomOf="@id/LL1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+
+    <androidx.constraintlayout.widget.Guideline
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:id="@+id/glH1"
+        app:layout_constraintGuide_percent="0.7"
+        android:orientation="horizontal"/>
+
+    <ListView
+        android:divider="@color/white"
+        tools:listitem="@layout/food_item"
+        app:layout_constraintBottom_toTopOf="@id/glH1"
+        app:layout_constraintTop_toBottomOf="@id/tv"
+        android:layout_margin="10dp"
+        android:background="@drawable/vienden"
+        android:id="@+id/lv_food"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"/>
+
+
+    <LinearLayout
+        app:layout_constraintTop_toBottomOf="@id/lv_food"
+        android:id="@+id/LL2"
+        android:paddingVertical="15dp"
+        android:layout_margin="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:textColor="@color/black"
+            android:layout_gravity="center"
+            android:layout_weight="1"
+            android:text="@string/tv_total_price"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+
+        <TextView
+            android:id="@+id/tv_TTPrice"
+            android:textColor="@color/black"
+            android:layout_gravity="center"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+    </LinearLayout>
+
+    <Button
+        android:textSize="20dp"
+        android:id="@+id/btn_Order"
+        android:textAllCaps="false"
+        android:textStyle="bold"
+        android:layout_margin="10dp"
+        android:background="@drawable/vienden"
+        app:layout_constraintTop_toBottomOf="@id/LL2"
+        android:text="@string/btn_order"
+        android:textColor="@color/black"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+    <TextView
+        android:id="@+id/tv_Result"
+        android:gravity="center"
+        android:textColor="@color/black"
+        android:layout_margin="30dp"
+        app:layout_constraintTop_toBottomOf="@id/btn_Order"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,17 @@
+<resources>
+    <string name="app_name">Order_App</string>
+    --------login-----------
+    <string name="btn_login">login</string>
+    <string name="chk_remember">Remember?</string>
+    <string name="et_user">enter username</string>
+    <string name="et_pass">enter password</string>
+    <string name="tv_title_login">Have a nice day! :0</string>
+    ------------Order main-----------
+    <string name="btn_order">Order</string>
+    <string name="tv_total_price">Total price</string>
+    <string name="tv_welcome">Welcome KhoaHA</string>
+    <string name="tv_title1">Food order</string>
+    <string name="tv_thank">Thank you! Your order is sent to restaurant!</string>
+    ------------Shopping cart----------
+    <string name="tv_title2">Your order</string>
+</resources>
