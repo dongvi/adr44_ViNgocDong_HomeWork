@@ -1,0 +1,27 @@
+<resources>
+    <string name="app_name">Note</string>
+    <string-array name="types">
+        <item>Work</item>
+        <item>Friend</item>
+        <item>Family</item>
+    </string-array>
+
+    <string-array name="tags">
+        <item>Family</item>
+        <item>Game</item>
+        <item>Android</item>
+        <item>VTC</item>
+        <item>Friend</item>
+    </string-array>
+
+    <string-array name="weeks">
+        <item>Monday</item>
+        <item>Tuesday</item>
+        <item>Wednesday</item>
+        <item>Thursday</item>
+        <item>Friday</item>
+        <item>Saturday</item>
+        <item>Sunday</item>
+    </string-array>
+
+</resources>
