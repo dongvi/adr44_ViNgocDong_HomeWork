@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">Food Delivery App</string>
+    ----------login----------
+    <string name="tv_welcome">Welcome!</string>
+    <string name="tv_ways_login">Sign up with Social of fill the form to continue.</string>
+    <string name="hint_et_name">Name</string>
+    <string name="hint_et_password">Password</string>
+    <string name="btn_sign_up">Sign up</string>
+    <string name="tv_privacy_policy">By Signing up, you agree to the Terms of Service and Privacy Policy</string>
+    ---------------home-----------------
+    <string name="btn_menu">Menu</string>
+    <string name="btn_home">Home</string>
+    <string name="btn_favorites">Favorites</string>
+    <string name="btn_chat">Chat</string>
+</resources>

@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android">
+
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        xmlns:app="http://schemas.android.com/apk/res-auto">
+
+        <androidx.constraintlayout.widget.Guideline
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:orientation="horizontal"
+            app:layout_constraintGuide_percent="0.1"
+            android:id="@+id/glH10"/>
+
+
+        <androidx.constraintlayout.widget.Guideline
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:orientation="horizontal"
+            app:layout_constraintGuide_percent="0.55"
+            android:id="@+id/glH55"/>
+
+        <androidx.constraintlayout.widget.Guideline
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:orientation="horizontal"
+            app:layout_constraintGuide_percent="0.65"
+            android:id="@+id/glH65"/>
+
+
+        <ImageView
+            android:id="@+id/btn_back"
+            app:layout_constraintBottom_toTopOf="@id/glH10"
+            android:layout_width="35dp"
+            android:layout_height="35dp"
+            android:src="@drawable/ic_back_black"/>
+
+        <ImageView
+            app:layout_constraintRight_toRightOf="parent"
+            app:layout_constraintBottom_toTopOf="@id/glH10"
+            android:id="@+id/btn_heart_off"
+            android:src="@drawable/ic_heart_off"
+            android:layout_width="30dp"
+            android:layout_height="35dp"/>
+
+        <ImageView
+            app:layout_constraintRight_toRightOf="parent"
+            app:layout_constraintBottom_toTopOf="@id/glH10"
+            android:id="@+id/btn_heart_on"
+            android:layout_width="30dp"
+            android:layout_height="35dp"
+            android:src="@drawable/ic_heart_on" />
+
+
+            <TextView
+                app:layout_constraintTop_toBottomOf="@id/glH10"
+                android:textSize="40dp"
+                android:id="@+id/tv_name_of_food_detail"
+                android:textStyle="bold"
+                android:textColor="@color/black"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+
+            <ImageView
+                android:layout_marginTop="15dp"
+                android:id="@+id/img_food_detail"
+                app:layout_constraintBottom_toTopOf="@id/glH55"
+                app:layout_constraintTop_toBottomOf="@id/tv_name_of_food_detail"
+                android:layout_width="match_parent"
+                android:layout_height="0dp"/>
+
+            <LinearLayout
+                app:layout_constraintBottom_toTopOf="@id/glH65"
+                app:layout_constraintTop_toBottomOf="@id/glH55"
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:orientation="horizontal"
+                android:gravity="center_vertical">
+
+                <RatingBar
+                    android:id="@+id/rt_vote_stars_detail"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:numStars="5"
+                    android:stepSize="0.1"
+                    style="@style/Widget.AppCompat.RatingBar.Indicator"
+                    android:progressTint="@color/yellow"
+                    android:rating="2"/>
+
+                <TextView
+                    android:layout_marginRight="20dp"
+                    android:textSize="25dp"
+                    android:text="$ "
+                    android:gravity="right"
+                    android:id="@+id/tv_price_of_food_detail"
+                    android:textStyle="bold"
+                    android:textColor="@color/black"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"/>
+
+                <ImageView
+                    android:id="@+id/btn_add_food_detail"
+                    android:layout_width="50dp"
+                    android:layout_height="50dp"
+                    android:src="@drawable/ic_add_food" />
+
+            </LinearLayout>
+
+            <TextView
+                android:id="@+id/tv_description_detail"
+                android:gravity="center"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintTop_toBottomOf="@id/glH65"
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:text="Description of this food."/>
+
+            </androidx.constraintlayout.widget.ConstraintLayout>
+
+
+</layout>

@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/hoc tap/android/Food Delivery App/app/src/main/res/drawable/background_item_food.xml" value="0.1899122807017544" />
+        <entry key="..\:/hoc tap/android/Food Delivery App/app/src/main/res/drawable/button.xml" value="0.1899122807017544" />
+        <entry key="..\:/hoc tap/android/Food Delivery App/app/src/main/res/drawable/circle.xml" value="0.1899122807017544" />
+        <entry key="..\:/hoc tap/android/Food Delivery App/app/src/main/res/drawable/et.xml" value="0.1899122807017544" />
+        <entry key="..\:/hoc tap/android/Food Delivery App/app/src/main/res/drawable/ic_back.xml" value="0.1899122807017544" />
+        <entry key="..\:/hoc tap/android/Food Delivery App/app/src/main/res/drawable/ic_not_see.xml" value="0.1899122807017544" />
+        <entry key="..\:/hoc tap/android/Food Delivery App/app/src/main/res/drawable/ic_person.xml" value="0.1899122807017544" />
+        <entry key="..\:/hoc tap/android/Food Delivery App/app/src/main/res/drawable/ic_see.xml" value="0.1899122807017544" />
+        <entry key="..\:/hoc tap/android/Food Delivery App/app/src/main/res/drawable/radius_50.xml" value="0.22552083333333334" />
+        <entry key="..\:/hoc tap/android/Food Delivery App/app/src/main/res/layout/activity_cart.xml" value="0.25" />
+        <entry key="..\:/hoc tap/android/Food Delivery App/app/src/main/res/layout/activity_fragment_detail_food.xml" value="0.22" />
+        <entry key="..\:/hoc tap/android/Food Delivery App/app/src/main/res/layout/activity_fragment_home.xml" value="0.22" />
+        <entry key="..\:/hoc tap/android/Food Delivery App/app/src/main/res/layout/activity_fragment_see_all.xml" value="0.25" />
+        <entry key="..\:/hoc tap/android/Food Delivery App/app/src/main/res/layout/activity_function.xml" value="0.129981884057971" />
+        <entry key="..\:/hoc tap/android/Food Delivery App/app/src/main/res/layout/activity_function_menu.xml" value="0.25" />
+        <entry key="..\:/hoc tap/android/Food Delivery App/app/src/main/res/layout/activity_home_page.xml" value="0.22" />
+        <entry key="..\:/hoc tap/android/Food Delivery App/app/src/main/res/layout/activity_main.xml" value="0.25" />
+        <entry key="..\:/hoc tap/android/Food Delivery App/app/src/main/res/layout/activity_user_profile.xml" value="0.25" />
+        <entry key="..\:/hoc tap/android/Food Delivery App/app/src/main/res/layout/item_food.xml" value="0.33" />
+        <entry key="..\:/hoc tap/android/Food Delivery App/app/src/main/res/layout/item_menu.xml" value="0.33" />
+        <entry key="..\:/hoc tap/android/Food Delivery App/app/src/main/res/layout/login_activity.xml" value="0.25" />
+        <entry key="..\:/hoc tap/android/Food Delivery App/app/src/main/res/layout/trong.xml" value="0.13451086956521738" />
+      </map>
+    </option>
+  </component>
+  <component name="ExternalStorageConfigurationManager" enabled="true" />
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="Android Studio default JDK" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>
